@@ -1,7 +1,12 @@
 import streamlit as st
 
 # Page Setup
-
+homepage = st.Page(
+    page="app_pages/homepage.py",
+    title="Welcome to the Project",
+    icon="👋",
+    default=True
+)
 
 detection_app_page = st.Page(
     page="app_pages/detection_app.py", 
@@ -13,6 +18,7 @@ detection_app_page = st.Page(
 # Navigation Setup
 pg = st.navigation(
     {
+        "Home": [homepage],
         "Projects": [detection_app_page],
     }
 )
