@@ -43,6 +43,15 @@ The project workflow is designed to facilitate a seamless transition from develo
 4. `pipelines`: Organize the sequence of operations from data ingestion to the final predictions.
 5. `application`: This is the main executable script that ties all other components together and runs the whole pipeline.
 
+## Workflow
+The project workflow is designed to facilitate a seamless transition from development to deployment:
+1. `constants`: Manage all fixed variables and paths used across the project.
+2. `entity`: Define the data structures for handling inputs and outputs within the system.
+3. `components`: Include all modular parts of the project such as data preprocessing, model training, and inference modules.
+4. `pipelines`: Organize the sequence of operations from data ingestion to the final predictions.
+5. `application`: This is the main executable script that ties all other components together and runs the whole pipeline.
+
+
 ## How to Run
 1. **Execute the project:**
 ```bash
