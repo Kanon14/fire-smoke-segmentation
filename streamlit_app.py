@@ -2,14 +2,14 @@ import streamlit as st
 
 # Page Setup
 homepage = st.Page(
-    page="app_pages/homepage.py",
+    page="pages/homepage.py",
     title="Welcome to the Project",
     icon="👋",
     default=True
 )
 
 detection_app_page = st.Page(
-    page="app_pages/detection_app.py", 
+    page="pages/detection_app.py", 
     title="Fire Smoke Segmentation Application",
     icon="🤖",
 )

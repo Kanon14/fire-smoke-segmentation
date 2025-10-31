@@ -1,7 +1,6 @@
 from ultralytics import YOLO
 import supervision as sv
 from PIL import Image
-import cv2
 
 
 # Testing with YOLO Segmentation

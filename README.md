@@ -1,4 +1,4 @@
-# fire-smoke-segmentation
+#🔥Fire Smoke Segmentation💨
 An AI-driven solution for **early fire detection and monitoring**, leveraging state-of-the-art **YOLO segmentation models** to automatically detect and segment fire and smoke in images and videos.
 
 This project aims to support **safety monitoring**, reduce **response times**, and improve **environmental protection** through real-time computer vision.
@@ -24,10 +24,15 @@ git clone https://github.com/Kanon14/fire-smoke-segmentation.git
 cd fire-smoke-segmentation
 ```
 
-2. **Create and activate a Conda environment:**
+2. **Create and activate an environment:**
 ```bash
+# Conda environment
 conda create -n fire_smoke python=3.10 -y
 conda activate fire_smoke
+
+# uv dependencies
+uv venv --python 3.10
+.venv/Scripts/activate
 ```
 
 3. **Install dependencies:**
