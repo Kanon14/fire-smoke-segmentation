@@ -1,4 +1,5 @@
-#🔥Fire Smoke Segmentation💨
+# 🔥Fire Smoke Segmentation💨
+
 An AI-driven solution for **early fire detection and monitoring**, leveraging state-of-the-art **YOLO segmentation models** to automatically detect and segment fire and smoke in images and videos.
 
 This project aims to support **safety monitoring**, reduce **response times**, and improve **environmental protection** through real-time computer vision.
